@@ -1,0 +1,249 @@
+# Copyright (C) 2023 pluginkollektiv
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AntiVirus 1.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/antivirus\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-24T15:50:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: antivirus\n"
+
+#. Plugin Name of the plugin
+#: inc/class-antivirus.php:330
+#: inc/class-antivirus.php:331
+#: inc/class-antivirus.php:696
+msgid "AntiVirus"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: inc/class-antivirus.php:320
+msgid "https://antivirus.pluginkollektiv.org"
+msgstr ""
+
+#. Description of the plugin
+msgid "Security plugin to protect your blog or website against exploits and spam injections."
+msgstr ""
+
+#. Author of the plugin
+msgid "pluginkollektiv"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginkollektiv.org"
+msgstr ""
+
+#: inc/class-antivirus-checkinternals.php:31
+#: inc/class-antivirus.php:631
+msgid "Virus suspected"
+msgstr ""
+
+#: inc/class-antivirus-checkinternals.php:34
+#: inc/class-antivirus.php:632
+msgid "The daily antivirus scan of your blog suggests alarm."
+msgstr ""
+
+#: inc/class-antivirus-checksumverifier.php:36
+msgid "Checksum Verifier Alert"
+msgstr ""
+
+#: inc/class-antivirus-checksumverifier.php:39
+#: inc/class-antivirus-checksumverifier.php:49
+msgid "Checksums do not match for the following files"
+msgstr ""
+
+#: inc/class-antivirus-safebrowsing.php:80
+msgid "Safe Browsing Alert"
+msgstr ""
+
+#: inc/class-antivirus-safebrowsing.php:83
+msgid "Google has found a problem on your page and probably listed it on a blacklist. It is likely that your website or your hosting account has been hacked and malware or phishing code was installed. We recommend to check your site. For more details please check the Google Safe Browsing diagnostic page:"
+msgstr ""
+
+#: inc/class-antivirus-safebrowsing.php:93
+msgid "Checking your site against the Google Safe Browsing API has failed."
+msgstr ""
+
+#: inc/class-antivirus-safebrowsing.php:94
+msgid "This does not mean that your site has been infected, but that the status could not be determined."
+msgstr ""
+
+#: inc/class-antivirus-safebrowsing.php:101
+msgid "Error message from API"
+msgstr ""
+
+#: inc/class-antivirus-safebrowsing.php:109
+msgid "Please check if your API key is correct and its limit not exceeded. If everything is correct and the error persists for the next requests, please contact the plugin support."
+msgstr ""
+
+#: inc/class-antivirus-safebrowsing.php:113
+msgid "Safe Browsing check failed"
+msgstr ""
+
+#: inc/class-antivirus.php:105
+#: inc/class-antivirus.php:714
+msgid "Settings"
+msgstr ""
+
+#: inc/class-antivirus.php:127
+#: inc/class-antivirus.php:886
+msgid "Donate"
+msgstr ""
+
+#: inc/class-antivirus.php:128
+#: inc/class-antivirus.php:902
+msgid "Support"
+msgstr ""
+
+#: inc/class-antivirus.php:319
+msgid "Notify message by AntiVirus for WordPress"
+msgstr ""
+
+#: inc/class-antivirus.php:593
+msgid "No Safe Browsing API key provided for AntiVirus"
+msgstr ""
+
+#: inc/class-antivirus.php:594
+msgid "Google Safe Browsing check was disabled, because no API key has been provided."
+msgstr ""
+
+#. translators: First placeholder (%1$s) starting link tag to the plugin settings page, second placeholder (%2$s) closing link tag
+#: inc/class-antivirus.php:598
+msgid "If you want to continue using this feature, please provide an API key using the %1$sAntiVirus settings page%2$s."
+msgstr ""
+
+#. translators: First placeholder (%1$s) starting link tag to the documentation page, second placeholder (%2$s) closing link tag
+#: inc/class-antivirus.php:607
+#: inc/class-antivirus.php:833
+msgid "See official %1$sdocumentation%2$s from Google."
+msgstr ""
+
+#: inc/class-antivirus.php:642
+msgid "Manual malware scan"
+msgstr ""
+
+#: inc/class-antivirus.php:686
+msgid "Settings saved."
+msgstr ""
+
+#: inc/class-antivirus.php:728
+msgid "Manual Scan"
+msgstr ""
+
+#: inc/class-antivirus.php:737
+msgid "Scan the theme templates now"
+msgstr ""
+
+#: inc/class-antivirus.php:749
+msgid "Daily malware scan"
+msgstr ""
+
+#: inc/class-antivirus.php:755
+msgid "Theme templates scan"
+msgstr ""
+
+#: inc/class-antivirus.php:762
+msgid "Enable theme templates scan for malware"
+msgstr ""
+
+#: inc/class-antivirus.php:770
+msgid "Next Run"
+msgstr ""
+
+#: inc/class-antivirus.php:780
+msgid "Google Safe Browsing"
+msgstr ""
+
+#: inc/class-antivirus.php:787
+msgid "Enable malware detection by Google Safe Browsing"
+msgstr ""
+
+#: inc/class-antivirus.php:791
+msgid "Diagnosis and notification in suspicion case."
+msgstr ""
+
+#. translators: First placeholder (%1$s) starting link tag to transparency report, second placeholder (%2$s) closing link tag
+#: inc/class-antivirus.php:796
+msgid "For more details read %1$sthe transparency report%2$s."
+msgstr ""
+
+#: inc/class-antivirus.php:816
+msgid "Safe Browsing API key"
+msgstr ""
+
+#: inc/class-antivirus.php:825
+msgid "Provide a custom key for the Google Safe Browsing API (v4)."
+msgstr ""
+
+#: inc/class-antivirus.php:827
+msgid "A key is <em>required</em> in order to use this check."
+msgstr ""
+
+#: inc/class-antivirus.php:848
+msgid "Checksum verification"
+msgstr ""
+
+#: inc/class-antivirus.php:855
+msgid "Enable checksum verification of WordPress core files"
+msgstr ""
+
+#: inc/class-antivirus.php:858
+msgid "Matches checksums of all WordPress core files against the values provided by the official API."
+msgstr ""
+
+#: inc/class-antivirus.php:864
+#: inc/class-antivirus.php:870
+msgid "Email address for notifications"
+msgstr ""
+
+#: inc/class-antivirus.php:872
+msgid "If the field is empty, the blog admin will be notified."
+msgstr ""
+
+#: inc/class-antivirus.php:879
+msgid "Save Changes"
+msgstr ""
+
+#: inc/class-antivirus.php:894
+msgid "Documentation"
+msgstr ""
+
+#: js/script.js:42
+msgid "! Warning"
+msgstr ""
+
+#: js/script.js:61
+msgid "Dismiss false positive virus detection"
+msgstr ""
+
+#: js/script.js:63
+msgid "Dismiss"
+msgstr ""
+
+#: js/script.js:103
+#: js/script.js:116
+msgid "✔ OK"
+msgstr ""
+
+#: js/script.js:127
+msgid "Scan finished"
+msgstr ""
+
+#: js/script.js:160
+#: js/script.js:199
+msgid "Theme File"
+msgstr ""
+
+#: js/script.js:161
+#: js/script.js:201
+msgid "Check Status"
+msgstr ""
+
+#: js/script.js:190
+msgid "pending"
+msgstr ""
